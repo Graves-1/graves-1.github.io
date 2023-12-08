@@ -1,3 +1,6 @@
+layout: page
+title: "PAGE-TITLE"
+permalink: /URL-PATH
 
 # Captain Falcon vs. Falco Matchup
 
