@@ -1,6 +1,6 @@
 layout: page
-title: "PAGE-TITLE"
-permalink: /URL-PATH
+title: "Captain Falcon"
+permalink: /notes/
 
 # Captain Falcon vs. Falco Matchup
 
