@@ -12,19 +12,11 @@ title: Home
   <header>
     <nav>
       <ul>
-        {% for nav_item in site.navigation %}
-        <li><a href="{{ nav_item.url | relative_url }}">{{ nav_item.title }}</a></li>
-        {% endfor %}
+		{% for nav_item in site.data.pages %}
+		<li><a href="{{ nav_item.url | relative_url }}">{{ nav_item.title }}</a></li>
+		{% endfor %}
       </ul>
     </nav>
   </header>
-<main>
-  {{ content }}
-  <h2>Matchup Notes</h2>
-  <ul>
-    <li><a href="/Captain_Falcon_vs_Falco_Matchup_Notes.html">Captain Falcon vs Falco</a></li>
-    <!-- Add similar list items for other Markdown files -->
-  </ul>
-</main>
 </body>
 </html>
