@@ -1,1 +1,27 @@
-"Hello World" 
+---
+layout: default
+title: Home
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        {% for nav_item in site.navigation %}
+        <li><a href="{{ nav_item.url | relative_url }}">{{ nav_item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+    {% include_relative Captain_Falcon_vs_Falco_Matchup_Notes.md %}
+    <!-- Add similar lines for other Markdown files -->
+  </main>
+</body>
+</html>
