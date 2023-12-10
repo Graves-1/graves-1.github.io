@@ -1,0 +1,5 @@
+- title: "Page Title 1"
+  url: "/pages/page1"
+- title: "Page Title 2"
+  url: "/pages/page2"
+# Add entries for each Markdown file in the 'pages' folder
